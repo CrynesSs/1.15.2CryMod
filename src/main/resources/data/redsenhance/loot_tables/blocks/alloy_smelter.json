@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "name": "redsenhance:alloy_furnace",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "redsenhance:alloy_furnace"
+        }
+      ]
+    }
+  ]
+}

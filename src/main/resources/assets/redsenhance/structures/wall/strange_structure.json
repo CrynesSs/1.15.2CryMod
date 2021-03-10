@@ -1,0 +1,75 @@
+{
+  "xSize": [
+    3
+  ],
+  "ySize": [
+    3
+  ],
+  "zSize": [
+    3
+  ],
+  "controllerlayers": [],
+  "controllerAmount": 0,
+  "structurename": "strange_structure",
+  "controllername": "",
+  "controllerpos": [
+    "onEdge"
+  ],
+  "matching": false,
+  "isCube": false,
+  "isFixedSize": false,
+  "isHollow": false,
+  "controllerNeeded": false,
+  "controllerFixed": false,
+  "blocks": {
+  },
+  "blockkeys": {
+    "x": "redsenhance:bigfurnacebrick",
+    "y": "redsenhance:induction_heating_coil",
+    "k": "redsenhance:hotairoutlet",
+    "o": "redsenhance:high_temp_glass"
+  },
+  "nonRegular": true,
+  "blockPosByLayer": {
+    "1": [
+      [
+        "a,a,a"
+      ],
+      [
+        "o,x,o"
+      ],
+      [
+        "a,a,a"
+      ]
+    ],
+    "2": [
+      [
+        "x,o,x"
+      ],
+      [
+        "o,a,o"
+      ],
+      [
+        "x,o,x"
+      ]
+    ],
+    "3": [
+      [
+        "a,a,a"
+      ],
+      [
+        "o,x,o"
+      ],
+      [
+        "a,a,a"
+      ]
+    ]
+  },
+  "hasStickOuts": false,
+  "blocksIncluded": [
+    "redsenhance:bigfurnacebrick",
+    "redsenhance:induction_heating_coil",
+    "redsenhance:hotairoutlet",
+    "redsenhance:high_temp_glass"
+  ]
+}

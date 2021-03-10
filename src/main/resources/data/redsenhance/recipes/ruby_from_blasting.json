@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "redsenhance:ruby_ore",
+    "count": 2
+  },
+  "result": {
+    "item": "redsenhance:ruby",
+    "count": 4
+  },
+  "experience": 1.0,
+  "cookingtime": 150
+}

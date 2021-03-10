@@ -1,0 +1,7 @@
+{
+  "parent": "redsenhance:block/template_corner",
+  "textures": {
+    "corner": "redsenhance:blocks/bigfurnacecorner",
+    "brick": "redsenhance:blocks/bigfurnacebrick"
+  }
+}

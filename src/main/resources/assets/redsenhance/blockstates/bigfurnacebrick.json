@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "invalidstructure=false": {
+      "model": "redsenhance:block/bigfurnacebrick"
+    },
+    "invalidstructure=true,position=center": {
+      "model": "redsenhance:block/bigfurnacebrick"
+    },
+    "invalidstructure=true,position=cornerup,outwards=north": {
+      "model": "redsenhance:block/bigfurnacecorner"
+    },
+    "invalidstructure=true,position=cornerup,outwards=south": {
+      "model": "redsenhance:block/bigfurnacecorner",
+      "y": 180
+    },
+    "invalidstructure=true,position=cornerup,outwards=east": {
+      "model": "redsenhance:block/bigfurnacecorner",
+      "y": 90
+    },
+    "invalidstructure=true,position=cornerup,outwards=west": {
+      "model": "redsenhance:block/bigfurnacecorner",
+      "y": 270
+    },
+    "invalidstructure=true,position=cornerdown,outwards=north": {
+      "model": "redsenhance:block/bigfurnacecorner",
+      "x": 270
+    },
+    "invalidstructure=true,position=cornerdown,outwards=south": {
+      "model": "redsenhance:block/bigfurnacecorner",
+      "x": 270,
+      "y": 180
+    },
+    "invalidstructure=true,position=cornerdown,outwards=east": {
+      "model": "redsenhance:block/bigfurnacecorner",
+      "x": 270,
+      "y": 90
+    },
+    "invalidstructure=true,position=cornerdown,outwards=west": {
+      "model": "redsenhance:block/bigfurnacecorner",
+      "x": 270,
+      "y": 270
+    },
+    "invalidstructure=true,position=edgeup,outwards=north": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "y": 270
+    },
+    "invalidstructure=true,position=edgeup,outwards=south": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "y": 90
+    },
+    "invalidstructure=true,position=edgeup,outwards=east": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "y": 180
+    },
+    "invalidstructure=true,position=edgeup,outwards=west": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "y": 0
+    },
+    "invalidstructure=true,position=edgedown,outwards=north": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "x": 180,
+      "y": 270
+    },
+    "invalidstructure=true,position=edgedown,outwards=south": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "x": 180,
+      "y": 90
+    },
+    "invalidstructure=true,position=edgedown,outwards=east": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "x": 180,
+      "y": 180
+    },
+    "invalidstructure=true,position=edgedown,outwards=west": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "x": 180,
+      "y": 0
+    },
+    "invalidstructure=true,position=edgevertical,outwards=north": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "x": 90,
+      "y": 90
+    },
+    "invalidstructure=true,position=edgevertical,outwards=south": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "x": 90,
+      "y": 270
+    },
+    "invalidstructure=true,position=edgevertical,outwards=east": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "x": 90,
+      "y": 180
+    },
+    "invalidstructure=true,position=edgevertical,outwards=west": {
+      "model": "redsenhance:block/bigfurnaceedge",
+      "x": 90,
+      "y": 0
+    }
+  }
+}

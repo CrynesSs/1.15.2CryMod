@@ -1,0 +1,686 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "north": true,
+        "cablestate": "straight"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_straight"
+      }
+    },
+    {
+      "when": {
+        "west": true,
+        "cablestate": "straight"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_straight",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "straight"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_straight",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "up": false,
+        "cablestate": "corner",
+        "east": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner"
+      }
+    },
+    {
+      "when": {
+        "up": false,
+        "cablestate": "corner",
+        "east": true,
+        "south": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "up": false,
+        "cablestate": "corner",
+        "west": true,
+        "south": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "up": false,
+        "cablestate": "corner",
+        "west": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "corner",
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "corner",
+        "south": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "corner",
+        "west": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "corner",
+        "east": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "x": 270,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "corner",
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "corner",
+        "south": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "corner",
+        "west": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "corner",
+        "east": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_nosidecorner",
+        "x": 90,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "north": true,
+        "cablestate": "tsection",
+        "south": true,
+        "east": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsection",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "north": true,
+        "cablestate": "tsection",
+        "south": true,
+        "west": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsection",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "east": true,
+        "cablestate": "tsection",
+        "west": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsection",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "east": true,
+        "cablestate": "tsection",
+        "west": true,
+        "south": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsection",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "tsection",
+        "west": true,
+        "east": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsection",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "tsection",
+        "west": true,
+        "east": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsection",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "tsection",
+        "south": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsection",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "tsection",
+        "south": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsection",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "tsection",
+        "up": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsectionz"
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "tsection",
+        "up": true,
+        "south": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsectionz",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "tsection",
+        "up": true,
+        "east": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsectionz",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "tsection",
+        "up": true,
+        "west": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_tsectionz",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "xyz",
+        "north": true,
+        "east": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_xyz"
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "xyz",
+        "south": true,
+        "east": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_xyz",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "xyz",
+        "south": true,
+        "west": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_xyz",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "xyz",
+        "north": true,
+        "west": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_xyz",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "xyz",
+        "north": true,
+        "east": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_xyz",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "xyz",
+        "south": true,
+        "east": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_xyz",
+        "y": 90,
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "xyz",
+        "south": true,
+        "west": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_xyz",
+        "y": 180,
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "xyz",
+        "north": true,
+        "west": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_xyz",
+        "y": 270,
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "twitharm",
+        "east": true,
+        "west": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "twitharm",
+        "south": true,
+        "east": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "twitharm",
+        "east": true,
+        "west": true,
+        "south": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "cablestate": "twitharm",
+        "south": true,
+        "west": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "twitharm",
+        "east": true,
+        "west": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 270,
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "twitharm",
+        "south": true,
+        "east": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 0,
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "twitharm",
+        "east": true,
+        "west": true,
+        "south": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 90,
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "twitharm",
+        "south": true,
+        "west": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 180,
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "twitharm",
+        "up": true,
+        "east": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "twitharm",
+        "up": true,
+        "east": true,
+        "south": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 90,
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "twitharm",
+        "up": true,
+        "south": true,
+        "west": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 180,
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "down": true,
+        "cablestate": "twitharm",
+        "up": true,
+        "west": true,
+        "north": true
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_twitharm",
+        "y": 270,
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "north": true,
+        "east": true,
+        "cablestate": "cross"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_cross"
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "east": true,
+        "cablestate": "cross"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_cross",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "up": true,
+        "north": true,
+        "cablestate": "cross"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_cross",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "down": false,
+        "cablestate": "crossarm"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_crossarm"
+      }
+    },
+    {
+      "when": {
+        "up": false,
+        "cablestate": "crossarm"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_crossarm",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "north": false,
+        "cablestate": "crossarm"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_crossarm",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "east": false,
+        "cablestate": "crossarm"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_crossarm",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "south": false,
+        "cablestate": "crossarm"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_crossarm",
+        "x": 90,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "west": false,
+        "cablestate": "crossarm"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_crossarm",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "cablestate": "allcable"
+      },
+      "apply": {
+        "model": "redsenhance:block/low_voltage_cable_allcable"
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "xSize": [
+    3,
+    4,
+    5
+  ],
+  "ySize": [
+    3,
+    4,
+    5
+  ],
+  "zSize": [
+    3,
+    4,
+    5
+  ],
+  "controllerlayers": [],
+  "controllerAmount": 1,
+  "structurename": "multi_block_furnace",
+  "controllername": "redsenhance:furnace_controller",
+  "controllerpos": [
+    "onEdge"
+  ],
+  "matching": false,
+  "isCube": false,
+  "isFixedSize": false,
+  "isHollow": true,
+  "controllerNeeded": true,
+  "controllerFixed": false,
+  "blocks": {
+    "onEdge": [
+      "x",
+      "y",
+      "o"
+    ],
+    "frame": [
+      "x"
+    ],
+    "top": [
+      "x",
+      "k"
+    ],
+    "bottom": [
+      "x"
+    ]
+  },
+  "blockkeys": {
+    "x": "redsenhance:bigfurnacebrick",
+    "y": "redsenhance:induction_heating_coil",
+    "k": "redsenhance:hotairoutlet",
+    "o": "redsenhance:high_temp_glass"
+  },
+  "nonRegular": false,
+  "blockPosByLayer": {
+    "1": [
+      [
+        "a,a,a"
+      ],
+      [
+        "a,x,a"
+      ],
+      [
+        "a,a,a"
+      ]
+    ],
+    "2": [
+      [
+        "x,x,x"
+      ],
+      [
+        "x,x,x"
+      ],
+      [
+        "x,x,x"
+      ]
+    ],
+    "3": [
+      [
+        "a,a,a"
+      ],
+      [
+        "a,x,a"
+      ],
+      [
+        "a,a,a"
+      ]
+    ]
+  },
+  "hasStickOuts": false,
+  "blocksIncluded": [
+    "redsenhance:bigfurnacebrick",
+    "redsenhance:induction_heating_coil",
+    "redsenhance:hotairoutlet",
+    "redsenhance:high_temp_glass"
+  ]
+}

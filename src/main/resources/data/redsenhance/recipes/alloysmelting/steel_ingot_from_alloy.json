@@ -1,0 +1,18 @@
+{
+  "type": "redsenhance:alloysmelting",
+  "output": {
+    "item": "redsenhance:steel_ingot",
+    "count": 2
+  },
+  "input": {
+    "0": {
+      "item": "minecraft:iron_ingot",
+      "count": 2
+    },
+    "1": {
+      "item": "redsenhance:coal_dust",
+      "count": 8
+    }
+  },
+  "smelttime": 500
+}

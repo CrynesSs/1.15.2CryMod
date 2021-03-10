@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "XTX",
+    "XTX"
+  ],
+  "key": {
+    "#": {
+      "item": "redsenhance:ruby_block"
+    },
+    "X": {
+      "item": "minecraft:obsidian"
+    },
+    "T": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "redsenhance:ruby_pickaxe"
+  }
+}

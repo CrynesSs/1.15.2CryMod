@@ -1,0 +1,198 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.robot.new": {
+      "animation_length": 4.2,
+      "bones": {
+        "ArmLeft": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "1.04": {
+              "vector": [
+                45,
+                0,
+                0
+              ]
+            },
+            "3.12": {
+              "vector": [
+                -45,
+                0,
+                0
+              ]
+            },
+            "4.2": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "ShoulderLeft": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeOutSine"
+            },
+            "0.52": {
+              "vector": [
+                15,
+                0,
+                0
+              ],
+              "easing": "easeOutSine"
+            },
+            "1.04": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeOutQuad"
+            },
+            "1.56": {
+              "vector": [
+                -15,
+                0,
+                0
+              ],
+              "easing": "easeOutQuad"
+            },
+            "2.08": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeOutQuad"
+            },
+            "2.6": {
+              "vector": [
+                0,
+                15,
+                0
+              ],
+              "easing": "easeOutQuad"
+            },
+            "3.12": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeOutSine"
+            },
+            "3.64": {
+              "vector": [
+                0,
+                -15,
+                0
+              ]
+            },
+            "4.16": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "ShoulderRight": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "0.52": {
+              "vector": [
+                15,
+                0,
+                0
+              ],
+              "easing": "easeOutSine"
+            },
+            "1.04": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeOutQuad"
+            },
+            "1.56": {
+              "vector": [
+                -15,
+                0,
+                0
+              ],
+              "easing": "easeOutQuad"
+            },
+            "2.08": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeOutQuad"
+            },
+            "2.6": {
+              "vector": [
+                0,
+                -15,
+                0
+              ],
+              "easing": "easeOutQuad"
+            },
+            "3.12": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeOutSine"
+            },
+            "3.64": {
+              "vector": [
+                0,
+                15,
+                0
+              ]
+            },
+            "4.16": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        "Head": {
+          "rotation": {
+            "vector": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

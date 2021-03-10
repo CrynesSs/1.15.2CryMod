@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "redsenhance:block/cobald_block"
+    }
+  }
+}

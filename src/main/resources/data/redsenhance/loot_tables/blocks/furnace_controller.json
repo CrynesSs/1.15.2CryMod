@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "name": "redsenhance:furnace_controller",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "redsenhance:furnace_controller"
+        }
+      ]
+    }
+  ]
+}

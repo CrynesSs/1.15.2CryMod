@@ -1,0 +1,18 @@
+{
+  "type": "redsenhance:alloysmelting",
+  "output": {
+    "item": "redsenhance:bronze_ingot",
+    "count": 2
+  },
+  "input": {
+    "0": {
+      "item": "redsenhance:copper_ingot",
+      "count": 3
+    },
+    "1": {
+      "item": "redsenhance:tin_ingot",
+      "count": 1
+    }
+  },
+  "smelttime": 300
+}

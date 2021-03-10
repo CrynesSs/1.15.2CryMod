@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lava",
+    "minecraft:flowing_lava",
+    "redsenhance:molten_metal_source",
+    "redsenhance:molten_metal_flowing"
+  ]
+}

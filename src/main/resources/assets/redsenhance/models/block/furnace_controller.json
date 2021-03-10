@@ -1,0 +1,10 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "redsenhance:blocks/bigfurnacebrick",
+    "down": "redsenhance:blocks/bigfurnacebrick",
+    "front": "redsenhance:blocks/bigfurnacecontroller",
+    "back": "redsenhance:blocks/bigfurnacebrick",
+    "side": "redsenhance:blocks/bigfurnacebrick"
+  }
+}

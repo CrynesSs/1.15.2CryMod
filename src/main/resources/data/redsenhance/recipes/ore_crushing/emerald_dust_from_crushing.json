@@ -1,0 +1,25 @@
+{
+  "type": "redsenhance:ore_crushing",
+  "output": {
+    "0": {
+      "item": "redsenhance:emerald_dust",
+      "count": 1,
+      "weight": 5,
+      "amounts": [
+        1,
+        2,
+        3
+      ],
+      "prob": [
+        1,
+        2,
+        1
+      ]
+    }
+  },
+  "input": {
+    "item": "minecraft:emerald",
+    "count": 4
+  },
+  "smelttime": 800
+}

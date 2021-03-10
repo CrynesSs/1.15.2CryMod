@@ -1,0 +1,7 @@
+{
+  "parent": "redsenhance:block/template_edge",
+  "textures": {
+    "edge": "redsenhance:blocks/bigfurnaceedge",
+    "brick": "redsenhance:blocks/bigfurnacebrick"
+  }
+}

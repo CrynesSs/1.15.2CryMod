@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "#T#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:terracotta"
+    },
+    "X": {
+      "item": "minecraft:stone_bricks"
+    },
+    "T": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "redsenhance:bigfurnacebrick"
+  }
+}
